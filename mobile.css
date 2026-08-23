@@ -1,0 +1,378 @@
+
+/*
+ * Mobile optimization layer
+ * Generated to preserve the Nicepage desktop layout while replacing
+ * fixed-width/fixed-height mobile rules with fluid layouts.
+ */
+
+html {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  /* ---------- Shared ---------- */
+
+  .u-header {
+    position: relative;
+    z-index: 100;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto !important;
+  }
+
+  .u-header .u-menu-1 .menu-collapse {
+    margin-right: 16px;
+  }
+
+  .u-header .u-menu-1 .u-hamburger-link {
+    padding: 8px !important;
+  }
+
+  .u-header .u-menu-1 .u-nav-container-collapse .u-sidenav {
+    width: min(86vw, 360px);
+  }
+
+  .u-section-1,
+  .u-section-2 {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  /* Keep page titles fluid instead of Nicepage's fixed 540/606px widths. */
+  .u-section-1 .u-text-1 {
+    width: auto !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* ---------- Home ---------- */
+
+  .page-home .u-section-1 {
+    padding: 96px 20px 72px;
+  }
+
+  .page-home .u-section-1 .u-text-1 {
+    margin-top: 0 !important;
+    margin-bottom: 48px;
+    font-size: clamp(2.6rem, 12vw, 3.75rem) !important;
+    line-height: 1.02;
+  }
+
+  .page-home .u-section-1 .u-group-elements-1,
+  .page-home .u-section-1 .u-group-elements-2,
+  .page-home .u-section-1 .u-group-elements-3 {
+    width: min(100%, 300px) !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 auto 48px !important;
+  }
+
+  .page-home .u-section-1 .u-group-elements-3 {
+    margin-bottom: 0 !important;
+  }
+
+  .page-home .u-section-1 .u-image-1,
+  .page-home .u-section-1 .u-image-2,
+  .page-home .u-section-1 .u-image-3 {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+
+  .page-home .u-section-1 .u-text-2,
+  .page-home .u-section-1 .u-text-3,
+  .page-home .u-section-1 .u-text-4 {
+    width: auto !important;
+    margin: 18px 0 0 !important;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  /* ---------- About ---------- */
+
+  .page-about .u-section-1 {
+    padding: 72px 20px 80px;
+  }
+
+  .page-about .u-section-1 .u-sheet-1 {
+    width: min(100%, 680px) !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 auto;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-about .u-section-1 .u-group-elements-1 {
+    display: none;
+  }
+
+  .page-about .u-section-1 .u-text-1 {
+    order: 1;
+    margin: 0 0 28px !important;
+    font-size: clamp(2.6rem, 12vw, 4rem);
+    line-height: 1.05;
+  }
+
+  .page-about .u-section-1 .u-image-1 {
+    order: 2;
+    width: 100% !important;
+    max-width: 460px;
+    height: auto !important;
+    margin: 0 auto 36px !important;
+    display: block;
+    object-fit: cover;
+  }
+
+  .page-about .u-section-1 .u-text-2 {
+    order: 3;
+    margin: 0 0 32px !important;
+    max-width: 62ch;
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .page-about .u-section-1 .u-shape-1 {
+    order: 4;
+    width: 100% !important;
+    margin: 0 0 32px !important;
+  }
+
+  .page-about .u-section-1 .u-group-elements-2,
+  .page-about .u-section-1 .u-group-elements-3,
+  .page-about .u-section-1 .u-group-elements-4 {
+    width: auto !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 0 18px !important;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .page-about .u-section-1 .u-group-elements-2 { order: 5; }
+  .page-about .u-section-1 .u-group-elements-3 { order: 6; }
+  .page-about .u-section-1 .u-text-5 { order: 7; }
+  .page-about .u-section-1 .u-group-elements-4 { order: 8; }
+  .page-about .u-section-1 .u-text-7 { order: 9; }
+
+  .page-about .u-section-1 .u-group-elements-2 .u-icon-1,
+  .page-about .u-section-1 .u-group-elements-3 .u-icon-2,
+  .page-about .u-section-1 .u-group-elements-4 .u-icon-3 {
+    flex: 0 0 35px;
+    width: 35px !important;
+    height: 35px !important;
+    margin: 0 !important;
+  }
+
+  .page-about .u-section-1 .u-text-3,
+  .page-about .u-section-1 .u-text-4,
+  .page-about .u-section-1 .u-text-6 {
+    margin: 0 !important;
+    width: auto !important;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+
+  .page-about .u-section-1 .u-text-5,
+  .page-about .u-section-1 .u-text-7 {
+    margin: 4px 0 18px !important;
+    text-align: left !important;
+    font-size: 1rem;
+  }
+
+  .page-about .u-section-1 .u-btn-1,
+  .page-about .u-section-1 .u-btn-2 {
+    font-size: 1rem;
+  }
+
+  /* ---------- Portfolio title sections ---------- */
+
+  .page-portfolio .u-section-1 {
+    padding: 72px 20px 52px;
+  }
+
+  .page-portfolio .u-section-1 .u-text-1 {
+    margin-top: 0 !important;
+    margin-bottom: 32px;
+    font-size: clamp(2.6rem, 12vw, 3.75rem) !important;
+    line-height: 1.05;
+  }
+
+  .page-portfolio .u-section-1 .u-shape-1 {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* ---------- Grid galleries ---------- */
+
+  .page-portfolio .u-section-2 {
+    padding: 44px 16px 80px;
+  }
+
+  .page-portfolio .u-section-2 > .u-text {
+    width: min(100%, 680px);
+    margin: 0 auto 18px !important;
+    padding: 0 4px;
+    font-size: clamp(1.2rem, 5vw, 1.65rem);
+    line-height: 1.2;
+  }
+
+  .page-portfolio .u-section-2 > .u-gallery {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto 52px !important;
+  }
+
+  .page-portfolio .u-section-2 > .u-gallery:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  .page-portfolio .u-layout-grid .u-gallery-inner {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-auto-rows: auto !important;
+    align-items: start;
+    gap: 14px !important;
+    overflow: visible !important;
+  }
+
+  .page-portfolio .u-layout-grid .u-gallery-item {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    aspect-ratio: auto !important;
+  }
+
+  .page-portfolio .u-layout-grid .u-back-slide {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .page-portfolio .u-layout-grid .u-back-image {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    display: block;
+    object-fit: contain !important;
+  }
+
+  .page-portfolio .u-layout-grid .u-over-slide {
+    display: none !important;
+  }
+
+  /* ---------- GameBreaker lookbooks / product guides ---------- */
+
+  .page-gamebreaker .u-section-2 .u-image {
+    width: min(100%, 680px) !important;
+    height: auto !important;
+    margin: 0 auto 24px !important;
+    display: block;
+    object-fit: contain !important;
+  }
+
+  .page-gamebreaker .u-section-2 .u-image:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  /* ---------- Ohio University horizontal galleries ---------- */
+
+  .page-ohio .u-section-2 .u-layout-horizontal.u-gallery {
+    width: 100% !important;
+    height: min(68vw, 420px) !important;
+    min-height: 220px !important;
+    margin: 0 auto 42px !important;
+  }
+
+  .page-ohio .u-section-2 .u-layout-horizontal .u-gallery-inner {
+    width: 100% !important;
+    height: 100% !important;
+    gap: 18px !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x proximity;
+    padding-bottom: 6px;
+  }
+
+  .page-ohio .u-section-2 .u-layout-horizontal .u-gallery-item {
+    height: 100% !important;
+    width: auto !important;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 0 !important;
+  }
+
+  .page-ohio .u-section-2 .u-layout-horizontal .u-back-slide {
+    height: 100% !important;
+    width: fit-content !important;
+  }
+
+  .page-ohio .u-section-2 .u-layout-horizontal .u-back-image {
+    height: 100% !important;
+    width: auto !important;
+    max-width: none !important;
+    object-fit: contain !important;
+  }
+
+  /* Keep horizontal galleries visually distinct from the grid galleries. */
+  .page-ohio .u-section-2 .u-layout-horizontal .u-over-slide {
+    display: none !important;
+  }
+
+  /* The mobile gallery layout makes the original parallax/fixed-height
+     calculations unnecessary and prevents oversized blank sections. */
+  .page-portfolio .u-parallax {
+    background-attachment: scroll !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .page-home .u-section-1 {
+    padding-top: 72px;
+  }
+
+  .page-about .u-section-1 {
+    padding-top: 56px;
+  }
+
+  .page-portfolio .u-section-1 {
+    padding-top: 56px;
+    padding-bottom: 40px;
+  }
+
+  .page-portfolio .u-section-2 {
+    padding-top: 36px;
+  }
+
+  .page-portfolio .u-layout-grid .u-gallery-inner {
+    gap: 10px !important;
+  }
+
+  .page-portfolio .u-section-2 > .u-gallery {
+    margin-bottom: 44px !important;
+  }
+
+  .page-ohio .u-section-2 .u-layout-horizontal.u-gallery {
+    height: 64vw !important;
+    min-height: 210px !important;
+  }
+}
