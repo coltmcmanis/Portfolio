@@ -376,3 +376,61 @@ img {
     min-height: 210px !important;
   }
 }
+
+
+/* ---------- Global mobile safety / fluid media ---------- */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+}
+
+img, video, iframe, embed, object, canvas {
+  max-width: 100%;
+}
+
+.u-sheet {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .u-section {
+    overflow: hidden;
+  }
+
+  /* Prevent long URLs/text from forcing horizontal scrolling. */
+  p, h1, h2, h3, h4, h5, h6, a, li {
+    overflow-wrap: anywhere;
+  }
+
+  /* Nicepage embeds and media should never exceed the viewport. */
+  .u-video, .u-video-container,
+  .u-image, .u-gallery,
+  .u-post-details {
+    max-width: 100%;
+  }
+
+  /* Keep decorative/background parallax effects from creating mobile
+     positioning/scrolling issues. */
+  .u-parallax {
+    background-attachment: scroll !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-btn {
+    max-width: 100%;
+  }
+
+  /* Avoid accidental viewport-wide gaps from fixed-width sheets. */
+  .u-sheet {
+    width: 100% !important;
+  }
+}
